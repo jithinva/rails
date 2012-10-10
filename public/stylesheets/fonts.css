@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  src: local('Droid Sans'), local('Droid Sans'), url('../fonts/font.woff') format('woff');
+}

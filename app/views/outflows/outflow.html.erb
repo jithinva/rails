@@ -1,0 +1,8 @@
+<%form_for ([@commodity, @outflow]) do |u|%>
+<%=u.error_messages%>
+<%=u.label :outflow_amt%>
+<%=u.text_field :outflow_amt%>
+
+<%=u.submit"use"%>
+
+<%end%>

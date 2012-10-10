@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: 'Droid Sans';
+    font-size: 12px;
+    background:#fff;
+}
+body a, a:visited, a:active{
+    color:#000;
+    text-decoration:none;
+}
+body a:hover{
+	color:#696969;
+}
+
+#header{
+    height:60px;
+    width:auto;
+    background-color:#FFE4B5;
+    text-align: center;
+    font-family: 'Droid Sans';
+}
+
+#user_nav{
+	float:right;
+	font-size:12px;
+}
+#wrapper{
+    height: 650px;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#footer{
+    border-top: 1px #f7efd8 groove;
+    width: 1024px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: px;
+    text-align: center;
+}
+
+.login{
+    margin: 10 auto;
+    width: 550px;
+    height: 600px;
+}
+#error{
+    color: #eb3123;
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+.row{
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin-left:5px;
+}
+.lrow{
+    width: 700px;
+    height: 35px;
+    display: block;
+    margin-left:95px;
+}
+.log_row{
+    width: 500px;
+    height: 35px;
+    display: block;
+    margin-left:95px;
+}
+.log_submit{
+    width: 500px;
+    height: 35px;
+    display: block;
+    margin-left:210px;
+}
+
+.td{
+    width: 180px;
+    margin: 5 0;
+}
+.th{
+    width: 122px;
+    padding: 5px 0;
+    text-align: left;
+}
+.left{
+    float: left;
+}
+
+input[type="text"],input[type="password"]{
+	width: 180px;
+}
+.link{
+    border-right:2px #f7efd8 groove;
+    
+    height: 620px;
+    margin: 0 auto;
+    width: 200px;
+}
+.friend{
+    height: 620px;
+    margin: 0 auto;
+    width: 600px;
+}
+.log_inbox{
+    width:1024px;
+    height: 35px;
+    display: block;
+    margin-left:10px;
+}
+#c_view{
+width:500px;
+height:600px;
+float:left;
+}
+#c_graph{
+width:500px;
+height:600px;
+float:left;
+}
+#graph1{
+width:490px;
+height:300px;
+float:left;
+}
+#graph2{
+width:490px;
+height:280px;
+float:left;
+}

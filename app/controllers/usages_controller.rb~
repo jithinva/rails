@@ -1,0 +1,24 @@
+class UsagesController < ApplicationController
+  def intake
+    @commodity=Commodity.find(params[:commodity_id])
+    @usage=@commodity.usages.build
+  end
+
+  def outflow
+    @commodity=Commodity.find(params[:commodity_id])
+    @usage=@commodity.usages.build
+  end
+  def create
+    @commodity=Commodity.find(params[:commodity_id])
+    @usage=@commodity.usages.build(params[:usage])
+    @usage.user_id=current_user.id
+    if @usage.save
+      redirect_to:controller=>"commodities",:action=>"index", :category_id=>@commodity.category_id
+    else
+      render:intake
+    end
+  
+
+  end
+
+end

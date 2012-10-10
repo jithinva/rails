@@ -1,0 +1,20 @@
+
+
+<% form_for @user_session do |f| %>
+
+<div class="login">
+    <div class="log_row">
+      <div class="th left">User Name</div>
+      <div class="td left"><%= f.text_field :username %></div>
+    </div>
+    <div class="log_row">
+      <div class="th left">Password</div>
+      <div class="td left"><%= f.password_field :password%></div>
+    </div>
+    <div class="log_submit">
+        <div class="th submit"><%= f.submit "Log In" %></div>
+    </div>
+</div>
+<div id="error"><%= f.error_messages %></div>
+<% end %>
+

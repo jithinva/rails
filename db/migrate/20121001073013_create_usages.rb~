@@ -1,0 +1,17 @@
+class CreateUsages < ActiveRecord::Migration
+  def self.up
+    create_table :usages do |t|
+      t.float :intake
+      t.flaot :outflow
+      t.string :type
+      t.references :users
+      t.references :commodities
+
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :usages
+  end
+end

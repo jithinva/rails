@@ -1,0 +1,16 @@
+<h2>Employee List</h2><br/>
+<table border="1">
+  <tr>
+  <th>Sl No.</th>
+  <th>Name</th>
+  <th>Email</th>
+  </tr>
+
+<% @employee.each_with_index do|employee,i|%>
+  <tr>
+    <td><%= i+1 %></td>
+    <td><%=employee.username%></td>
+    <td><%=employee.email%></td>
+  </tr>
+  <%end%>
+</table>

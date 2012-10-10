@@ -1,0 +1,30 @@
+<%= flash[:notice] %>
+<% form_for :report do|s| %>
+start date: <%= calendar_date_select_tag 'report[start_date]',"",
+              :year_range => 15.years.ago..5.years.from_now, :readonly=>true, :popup=>"force" %><br/><br/>
+end date: <%= calendar_date_select_tag 'report[end_date]', "",
+              :year_range => 15.years.ago..5.years.from_now, :readonly=>true, :popup=>"force" %><br/>
+<%= s.submit "go" %>
+
+<% end %>
+
+<table border="1">
+  <h2> Outflow Details </h2>
+  <tr>
+    <th>
+      Sl No.
+    </th>
+    <th>Commodity</th>
+    <th>Outflow_amount</th>
+    <th> Date</th>
+  </tr>
+  <% @outflow_reports.each_with_index do|outflow,i|%>
+   <tr>
+     <td><%= i+1 %></td>
+     <td><%=outflow.commodity.commodity%></td>
+     <td><%=outflow.outflow_amt%></td>
+     <td><%= outflow.created_at.strftime("%d %B, %Y - %I:%M%p") %></td>
+  </tr>
+  <%end%>
+
+</table>

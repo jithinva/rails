@@ -1,0 +1,9 @@
+class Intake < ActiveRecord::Base
+  belongs_to :user
+  belongs_to :commodity
+  belongs_to :category
+  	def self.total_on(date,commodity)
+  	#find(:conditions=>["date(created_at) = ?",date]).sum(:intake_amt)
+	Intake.all.reject{|i| !( i.created_at.to_date ==date && i.commodity_id==commodiy_id)}.sum(&:intake_amt)
+	end
+end

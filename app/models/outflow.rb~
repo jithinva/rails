@@ -1,0 +1,8 @@
+class Outflow < ActiveRecord::Base
+  belongs_to :user
+  belongs_to :commodity
+	def self.total_on(date)
+  	#find(:conditions=>["date(created_at) = ?",date]).sum(:intake_amt)
+	Outflow.all.reject{|i| !( i.created_at.to_date ==date)}.sum(&:outflow_amt)
+	end
+end

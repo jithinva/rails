@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  intake_amt: 1.5
+  user: 
+  commodity: 
+
+two:
+  intake_amt: 1.5
+  user: 
+  commodity: 

@@ -1,0 +1,115 @@
+Script started on Wednesday 03 October 2012 11:58:24 AM IST
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ script/consolegenerate controller usages intake outflow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cutrack/[K..[Kscript/genetate controller usages intake outflow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@cd cutrack/script/gener[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kscript/generate model Usage intake:float outflow:float user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cutrack/[K..[Kcutrack/script/generate model Usage intake:float outflow:float user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kcd cutrack/script/generate controller usages intake outflow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pscript/genet[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kcutrack/script/generate controller usages intake outflow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cutrack/[K..[Kscript/genetate controller usages intake outflow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@cd cutrack/script/gener[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kscript/generate model Usage intake:float outflow:float user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cutrack/[K..[Kscript/generate model Usage intake:float outflow:float type:string user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[62Prake db:migrate:up VERSION=20121001073013[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[Krake db:migrate:down VERSION=20121001073013history[Khistory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[Krake db:migrate:down VERSION=20121001073013[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Usage intake:float outflow:float type:string user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kscript/generate model Usage intake:float outflow:float type:string user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[62Prake db:migrate:up VERSION=20121001073013[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript generate model Intake intake_amt:float user:references commodity:references[1@/[C[1P
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/intake.rb
+      create  test/unit/intake_test.rb
+      create  test/fixtures/intakes.yml
+      exists  db/migrate
+      create  db/migrate/20121003062955_create_intakes.rb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:migrate
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+==  CreateIntakes: migrating ==================================================
+-- create_table(:intakes)
+   -> 0.2438s
+==  CreateIntakes: migrated (0.2439s) =========================================
+
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:migratescript/generate model Intake intake_amt:float user:references commodity:references[C[1P[1P[1P[1P[1P[1P[1@O[1@u[1@t[1@f[1@l[1@o[1@w[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@o[1@u[1@t[1@f[1@l[1@o[1@w
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/outflow.rb
+      create  test/unit/outflow_test.rb
+      create  test/fixtures/outflows.yml
+      exists  db/migrate
+      create  db/migrate/20121003063147_create_outflows.rb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:migrate
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+==  CreateOutflows: migrating =================================================
+-- create_table(:outflows)
+   -> 0.1887s
+==  CreateOutflows: migrated (0.1888s) ========================================
+
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ script/generate controller intakes intake
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/intakes
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/intakes_controller.rb
+      create  test/functional/intakes_controller_test.rb
+      create  app/helpers/intakes_helper.rb
+      create  test/unit/helpers/intakes_helper_test.rb
+      create  app/views/intakes/intake.html.erb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ script/generate controller intakes intake[26Prake db:migratescript/generate model Outflow outflow_amt:float user:references commodity:references[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kscript/generate controller intakes intake[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Koutflows outflow
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/outflows
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/outflows_controller.rb
+      create  test/functional/outflows_controller_test.rb
+      create  app/helpers/outflows_helper.rb
+      create  test/unit/helpers/outflows_helper_test.rb
+      create  app/views/outflows/outflow.html.erb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ sudo rake gems:install
+[sudo] password for jithin: 
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+gem install declarative_authorization --source http://gemcutter.org
+Successfully installed declarative_authorization-0.5.6
+1 gem installed
+Installing ri documentation for declarative_authorization-0.5.6...
+Installing RDoc documentation for declarative_authorization-0.5.6...
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ cd ..
+]0;jithin@foradian: ~/NetBeansProjectsjithin@foradian:~/NetBeansProjects$ cd cutrack
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:c[Kmigrate
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+rake aborted!
+Unknown database 'cutrack_development'
+
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:migrate[K[K[K[K[K[K[Kcreate
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:createmigrate
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+==  CreateUsers: migrating ====================================================
+-- create_table(:users)
+   -> 0.1195s
+==  CreateUsers: migrated (0.1196s) ===========================================
+
+==  CreateCategories: migrating ===============================================
+-- create_table(:categories)
+   -> 0.1659s
+==  CreateCategories: migrated (0.1660s) ======================================
+
+==  CreateCommodities: migrating ==============================================
+-- create_table(:commodities)
+   -> 0.1321s
+==  CreateCommodities: migrated (0.1322s) =====================================
+
+==  CreateIntakes: migrating ==================================================
+-- create_table(:intakes)
+   -> 0.1410s
+==  CreateIntakes: migrated (0.1411s) =========================================
+
+==  CreateOutflows: migrating =================================================
+-- create_table(:outflows)
+   -> 0.1240s
+==  CreateOutflows: migrated (0.1241s) ========================================
+
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:seed
+WARNING: 'require 'rake/rdoctask'' is deprecated.  Please use 'require 'rdoc/task' (in RDoc 2.4.2+)' instead.
+    at /usr/local/lib/ruby/gems/1.8/gems/rake-0.9.2.2/lib/rake/rdoctask.rb
+]0;jithin@foradian: ~/NetBeansProjects/cutrackjithin@foradian:~/NetBeansProjects/cutrack$ rake db:seedmigrate[1Pcrea

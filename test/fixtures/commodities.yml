@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  commodity: MyString
+  description: MyText
+  category: 
+
+two:
+  commodity: MyString
+  description: MyText
+  category: 

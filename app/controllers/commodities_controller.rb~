@@ -1,0 +1,47 @@
+class CommoditiesController < ApplicationController
+  
+  def index
+		 @category = Category.find(params[:category_id]) 
+     @commodities = @category.commodities
+		 
+	end
+
+  def new
+     @category = Category.find(params[:category_id])
+     @commodity = @category.commodities.build
+     
+  end
+
+  def edit
+    @category = Category.find(params[:category_id])
+    @commodity = @category.commodities.find(params[:id])
+  end
+  def create
+    @category = Category.find(params[:category_id])
+    @commodity = @category.commodities.build(params[:commodity])
+    @intake=params[:commodity][:intake]
+    if @commodity.save
+      Usage.create!(:user_id=>current_user.id,:commodity_id=>@commodity.id, :intake=>@intake)
+      redirect_to :controller=>"commodities",:action=>"index"
+    else
+      render :new
+    end
+  end
+  def intake
+  end
+   def update
+     @category = Category.find(params[:category_id])
+     @commodity = Commodity.find(params[:id])
+     if @commodity.update_attributes(params[:commodity])
+       redirect_to :controller=>"commodities",:action=>"index"
+     else
+       render :edit
+     end
+   end
+   def destroy
+      @category = Category.find(params[:category_id])
+      @commodity = Commodity.find(params[:id])
+      @commodity.destroy
+      redirect_to:controller=>"commodities",:action=>"index"
+   end
+end

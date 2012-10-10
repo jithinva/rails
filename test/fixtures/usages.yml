@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  intake: 1.5
+  outflow: 1.5
+  user: 
+  commodity: 
+
+two:
+  intake: 1.5
+  outflow: 1.5
+  user: 
+  commodity: 

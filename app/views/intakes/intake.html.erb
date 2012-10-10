@@ -1,0 +1,7 @@
+<%form_for ([@commodity, @intake]) do |u|%>
+<%=u.error_messages%>
+<%=u.label :intake_amt%>
+<%=u.text_field :intake_amt%>
+
+<%=u.submit"add"%>
+<%end%>

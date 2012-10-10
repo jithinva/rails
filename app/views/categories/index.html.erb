@@ -1,0 +1,37 @@
+<div class="left link">
+  <%if current_user.type=="Master"%>
+<div class="log_row">
+      <div class="th left"><h3><%=link_to "Registration",new_user_path %></h3></div>
+</div>
+<div class="log_row">
+      <div class="th left"><h3><%=link_to "Employee List",:controller=>"categories",:action=>"employee_list"%></h3></div>
+</div>
+<div class="log_row">
+      <div class="th left"><h3><%=link_to "Add category",new_category_path%></h3></div>
+</div>
+<%end%>
+</div>
+
+
+
+<div class="left friend">
+<h2>Categories</h2>
+    <div class="log_row">
+      <div class="th left"><h3>Name</h3></div>
+      <div class="td left"><h3>Description</h3></div>
+    </div>
+	 <%for category in @categories %>
+         <div class="log_row">
+      		<div class="th left"><%=category.categories%></div>
+      		<div class="td left"><%=category.description%></div>
+                <div class="td left"><%= link_to"select", category_commodities_path(category) %>
+                  <%if current_user.type=="Master"%>
+                |<%=link_to "Edit",edit_category_path(category)%>|
+                <%= link_to 'Destroy', category_path(category),:confirm => 'Are you sure?', :method => :delete %>
+                <%end%>
+                </div>
+                
+    	</div>
+
+<%end%>
+</div>
